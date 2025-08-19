@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parte 5</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <p id="logged_user">{{username}}</p>
+    <h1 class="title">Come Combattere Il Caldo</h1>
+    <p class="explaining">Dopo aver capito cos'è il cambiamento climatico in tutti i suoi aspetti e aver adottato strategie per contrastarlo, ci serve una tecnica per difenderci, eccone alcune:</p>
+    <ul class="explaining">
+        <li>Bere molta acqua: preferibilmente fresca, l'acqua è necessaria per il nostro corpo poiché ne costituisce dall'80% al 90% a seconda della persona e si consiglia di berne 2 litri al giorno.</li>
+        <li>Evitare di uscire in certi orari: da mezzogiorno alle 2 di pomeriggio è sconsigliato uscire per evitare ustioni. Se è necessario farlo, mettere la crema solare soprattutto nei paesi più caldi.</li>
+        <li>Indossare abiti leggeri: vestiti leggeri e traspiranti aiutano a mantenere il corpo fresco.</li>
+    </ul>
+    <img src="../static/img/riscaldamento_climatico.jpg">
+    <p class="explaining">Detto questo il nostro viaggio finisce qui, spero che ti sia piaciuto e che ti abbia schiarito le idee sulla potenziale minaccia che affligge il nostro pianeta.</p>
+    <p class="quiz_time">Quiz Time!</p>
+    <form action="" method="post" class="explaining">
+        <label for="answer">Ma come dimenticarsi del QUIZ! Quanti litri d'acqua è preferibiile bere al giorno?</label>
+        <input type="text" id="answer" name="answer" required>
+        <button type="submit">Invia</button>
+    </form>
+    <p class="explaining">{{esito}}</p>
+</body>
+</html>

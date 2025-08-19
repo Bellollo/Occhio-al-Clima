@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parte 4</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <p id="logged_user">{{username}}</p>
+    <h1 class="title">Cosa Puoi Fare Per Contrastare Il Cambiamento climatico?</h1>
+    <p class="explaining">Il cambiamento climatico può essere contrastato con 2 metodi principali:</p>
+    <ol class="explaining">
+        <li>Fare la raccolta differenziata: così facendo il materiale che getti sarà riciclato evitando lo spreco di altri materiali.</li>
+        <li>Comprare solo prodotti ecologici: Compra solo i prodotti sostenibili, non importa che cosa siano, ci sarà sempre scritto da qualche parte se sono riciclabili o se sono stati prodotti utilizzando fonti di energia sostenibili. Così facendo portarai le aziende insostenibii a fallire o a cambiare il procedimento con cui producono i loro prodotti.</li>
+    </ol>
+    <img src="../static/img/riscaldamento_climatico.jpg" alt="Cosa puoi fare per contrastare il cambiamento climatico">
+    <p class="explaining">Ovviamente una persona sola non serve a niente bisogna che tutti facciano questi piccoli gesti per garantirci un futuro</p>
+    <p class="quiz_time">Quiz Time!</p>
+    <form action="" method="post" class="explaining">
+        <label for="answer">Ognuno può fare la sua parte per creare un futuro migliore?</label>
+        <input type="text" id="answer" name="answer" required>
+        <button type="submit">Invia</button>
+    </form>
+    <p class="explaining">{{esito}}</p>
+</body>
+</html>

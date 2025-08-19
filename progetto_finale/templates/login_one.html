@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+    <form action="{{ url_for('login_stage_one')}}" method="post" class="login_text">
+        <h1 class="login_title">Login</h1>
+        <label for="username">
+            <input type="text" name="username" id="username" placeholder="Username" required>
+        </label>
+        <label for="password">
+            <input type="password" name="password" id="password" placeholder="Password" required>
+        </label>
+        <input type="hidden" name="stage" value="0">
+        <button type="submit">Login</button>
+
+        {% if error %}
+            <p>{{ error }}</p>
+        {% endif %}
+
+        <p>Non hai un account? Registrati tramite discord!</p>
+    </form>
+</body>
+</html>

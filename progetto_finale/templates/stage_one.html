@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parte 1</title>
+    <style>
+        
+    </style>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <p id="logged_user">{{username}}</p>
+    <h1 class="title">Cos'è il riscaldamento climatico?</h1>
+    <p class="explaining">La temperatura della terra è sempre stata in leggero aumento, ma era così impercettibile che non veniva considerata una minaccia.<br> Tuttavia negli ultimi decenni il tasso di aumento della temperatura ha praticamente preso un razzo ed è salito tantissimo.<br>Una volta per salire di un grado la temperatura impiegava circa 20 anni. Ora invece è 10 volte più veloce!<br></p>
+    <img src="../static/img/riscaldamento_climatico.jpg">
+    <p class="explaining">Questo è dovuto principalmente all'aumento della CO2 nell'atmosfera, che viene prodotta da attività umane come l'industria, i trasporti e l'agricoltura.<br> La CO2 intrappola il calore del sole, impedendo che venga disperso nello spazio, causando un effetto serra.</p>
+    <p class="quiz_time">Quiz Time!</p>
+    <form action="" method="post" class="explaining">
+        <label for="answer">Di quante volte è aumentato il tasso del cambiamento climatico negli ultimi anni?</label>
+        <input type="text" id="answer" name="answer" required>
+        <button type="submit">Invia</button>
+    </form>
+    <p class="explaining">{{esito}}</p>
+
+        
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parte 3</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <p id="logged_user">{{username}}</p>
+    <h1 class="title">Le Cause Del Cambiamento climatico</h1>
+    <p class="explaining">Le Principali cause del cambiamento climatico sono:</p>
+    <ul class="explaining">
+        <li>Emissioni di gas serra: Tutte le industrie usano sistemi che producono Anidride Carbonica. Essa trattiene il calore del sole all'interno del pianeta riscaldandolo</li>
+        <li>Deforestazione: Gli alberi assorbono l'Anidride Carbonica e rilasciano ossigeno, quindi niente alberi, più gas serra!</li>
+    </ul>
+    <img src="../static/img/riscaldamento_climatico.jpg" alt="Cause del cambiamento climatico">
+    <p class="explaining">Queste sono le principali cause del cambiamento climatico, ma ce ne sono molte altre.</p>
+    <p class="quiz_time">Quiz Time!</p>
+    <form action="" method="post" class="explaining">
+        <label for="answer">Quali sono le principali cause del cambiamento climatico?<br><ol><li>Le industrie</li><li>La Deforestazione</li><li>Entrambi</li></ol></label>
+        <input type="text" id="answer" name="answer" required>
+        <button type="submit">Invia</button>
+    </form>
+    <p class="explaining">{{esito}}</p>
+        
+</body>
+</html>

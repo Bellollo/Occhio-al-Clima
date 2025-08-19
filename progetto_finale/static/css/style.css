@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+body {
+    background-color: #ffc87a;
+}
+
+.login_text {
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+.login_title {
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+    
+#logged_user {
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.title {
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.explaining {
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.quiz_time {
+    text-align: center;
+    font-family: "DynaPuff";
+    font-size: 130px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
